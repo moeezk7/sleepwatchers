@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SleepWatch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAv-7T-Lgv">
+                                <rect key="frame" x="67" y="40" width="240" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please allow the app to access the healthkit data when prompted or in Settings&gt;Privacy&gt;Health&gt;SleepWatch" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VqR-CY-pbD">
+                                <rect key="frame" x="41" y="156.5" width="293" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For first time use:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dob-50-eMs">
+                                <rect key="frame" x="41" y="116" width="293" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="On Watch Instructions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5m-Bb-gxe">
+                                <rect key="frame" x="41" y="439" width="293" height="21"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sleepwatchicon copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="Cq1-ZS-gPJ">
+                                <rect key="frame" x="50" y="232.5" width="275" height="191.5"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1. Open app on watch and press the &quot;Start&quot; button to initiate monitor" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3d1-nl-4dh">
+                                <rect key="frame" x="41" y="480" width="293" height="56"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Use the slider to set your initial heart rate" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9CX-yo-xrL">
+                                <rect key="frame" x="41" y="531" width="293" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. The watch will now activate when your heart rate drops to a drowsy level" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqr-Jr-uqr">
+                                <rect key="frame" x="41" y="569" width="293" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Cq1-ZS-gPJ" secondAttribute="trailing" constant="50" id="0EZ-Ax-wNj"/>
+                            <constraint firstItem="N5m-Bb-gxe" firstAttribute="top" secondItem="Cq1-ZS-gPJ" secondAttribute="bottom" constant="15" id="1Ji-13-adJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3d1-nl-4dh" secondAttribute="trailing" constant="25" id="2u2-Oj-wiU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N5m-Bb-gxe" secondAttribute="trailing" constant="25" id="3f9-ov-h0B"/>
+                            <constraint firstItem="3d1-nl-4dh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="Epo-Nz-f1b"/>
+                            <constraint firstItem="VqR-CY-pbD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="Fvd-yE-Rmt"/>
+                            <constraint firstItem="9CX-yo-xrL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="K80-ry-qwB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aqr-Jr-uqr" secondAttribute="trailing" constant="25" id="LOk-2G-Ejg"/>
+                            <constraint firstItem="Dob-50-eMs" firstAttribute="top" secondItem="kAv-7T-Lgv" secondAttribute="bottom" constant="40" id="LrD-G6-71v"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kAv-7T-Lgv" secondAttribute="bottom" constant="591" id="OXu-ye-hPT"/>
+                            <constraint firstItem="Cq1-ZS-gPJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="V1P-5W-dQa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kAv-7T-Lgv" secondAttribute="trailing" constant="52" id="VBQ-FO-oIs"/>
+                            <constraint firstItem="kAv-7T-Lgv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="Zy5-qk-5rh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dob-50-eMs" secondAttribute="trailing" constant="25" id="aRB-Ci-lNp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VqR-CY-pbD" secondAttribute="trailing" constant="25" id="kIw-Hq-hH0"/>
+                            <constraint firstItem="aqr-Jr-uqr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="los-wE-Hms"/>
+                            <constraint firstItem="Cq1-ZS-gPJ" firstAttribute="top" secondItem="VqR-CY-pbD" secondAttribute="bottom" constant="15" id="m4A-2S-05I"/>
+                            <constraint firstItem="aqr-Jr-uqr" firstAttribute="top" secondItem="9CX-yo-xrL" secondAttribute="bottom" constant="2" id="map-Ji-gzX"/>
+                            <constraint firstItem="9CX-yo-xrL" firstAttribute="top" secondItem="N5m-Bb-gxe" secondAttribute="bottom" constant="71" id="nVd-aI-TCi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9CX-yo-xrL" secondAttribute="trailing" constant="25" id="qP6-Dq-0SA"/>
+                            <constraint firstItem="N5m-Bb-gxe" firstAttribute="top" secondItem="VqR-CY-pbD" secondAttribute="bottom" constant="221.5" id="sOr-14-Lhe"/>
+                            <constraint firstItem="kAv-7T-Lgv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="tIP-x6-6q7"/>
+                            <constraint firstItem="Dob-50-eMs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="tvz-Fb-gds"/>
+                            <constraint firstItem="3d1-nl-4dh" firstAttribute="top" secondItem="N5m-Bb-gxe" secondAttribute="bottom" constant="20" id="uwO-wP-7gm"/>
+                            <constraint firstItem="VqR-CY-pbD" firstAttribute="top" secondItem="Dob-50-eMs" secondAttribute="bottom" constant="20" id="w6X-gc-s1u"/>
+                            <constraint firstItem="N5m-Bb-gxe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="25" id="ynV-7g-AIQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sleepwatchicon copy 2" width="1024" height="1024"/>
+    </resources>
+</document>
