@@ -1,4 +1,4 @@
-# sleepwatchers (outdated)
+# sleepwatchers (deprecated)
 Sleepwatchers is an open-source mobile application solution that strives to circumvent the issue of fatal car accidents caused by drowsy driving. The application utilizes an iPhone and an Apple Watch to track the user's heart rate to determine if they are falling asleep at the wheel and then attempt to wake the user up. The watch will loudly beep and vibrate until the user returns to an alert state. Sleepwatchers uses data from real case studies on how the body reacts to drowsiness to provide accurate detection for a driver falling asleep.
 
 ## Notes:
